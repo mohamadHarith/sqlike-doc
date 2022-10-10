@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -34,6 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsible: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
 
@@ -52,10 +53,10 @@ const config = {
     ({
       navbar: {
         title: "SQLike",
-        logo: {
-          alt: "sqlike",
-          src: "img/logo.svg",
-        },
+        // logo: {
+        //   alt: "sqlike",
+        //   src: "img/logo.svg",
+        // },
         items: [
           {
             type: "docsVersionDropdown",
